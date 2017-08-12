@@ -1,5 +1,6 @@
-.DS_Store
+*.DS_Store
 .editorconfig
+.distignore
 .git
 .gitignore
 .travis.yml
@@ -15,6 +16,9 @@ gulpfile.js
 node_modules
 npm-debug.log
 package.json
+package-lock.json
+phpcs.xml
+phpcs.ruleset.xml
 phpunit.xml
 phpunit.xml.dist
 tests
